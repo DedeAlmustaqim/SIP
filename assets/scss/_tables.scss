@@ -1,0 +1,17 @@
+.dataTables_wrapper.container-fluid {
+  padding: 0;
+  max-width: 100%;
+}
+
+// Key Tables
+table.dataTable th.focus,table.dataTable td.focus{
+  outline: 2px solid $primary !important;
+  outline-offset: -1px;
+  background-color: rgba($primary,0.15);
+}
+
+
+// Multi select table
+table.dataTable tbody>tr.selected, table.dataTable tbody>tr>.selected {
+  background-color: $primary;
+}
